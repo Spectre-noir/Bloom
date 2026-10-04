@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+    <meta name="theme-color" content="#0b0712">
+    <title>BLOOM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="bloom">
+
+        <section
+            id="scene"
+            class="scene scene--intro"
+            aria-live="polite"
+        >
+
+            <div class="scene__background"></div>
+
+            <div class="scene__content">
+
+                <!-- BLOOM MASCOT -->
+                <div
+                    id="mascot"
+                    class="mascot"
+                    aria-hidden="true"
+                >
+                    <img
+                        class="mascot__image"
+                        src="assets/images/mascot.png"
+                        alt=""
+                    >
+
+                    <div
+                        id="mascotBubble"
+                        class="mascot__bubble"
+                    ></div>
+                </div>
+
+                <!-- MAIN VISUAL -->
+                <div
+                    id="visual"
+                    class="visual"
+                    aria-hidden="true"
+                ></div>
+
+                <!-- MAIN TEXT -->
+                <div
+                    id="text"
+                    class="text"
+                ></div>
+
+                <!-- MAIN ACTION -->
+                <button
+                    id="action"
+                    class="action"
+                    type="button"
+                    hidden
+                ></button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <audio
+    id="bloomMusic"
+    preload="auto"
+    ></audio>
+
+<script src="config/birthday.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
