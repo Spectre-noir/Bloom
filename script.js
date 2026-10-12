@@ -2558,7 +2558,7 @@ function beginMemoryHeartMorph() {
                 <defs>
 
                     <filter
-                        id="shreyaGlow"
+                        id=spectreGlow"
                         x="-60%"
                         y="-60%"
                         width="220%"
