@@ -1,9 +1,9 @@
 const BLOOM_BIRTHDAY = {
 
     person: {
-        name: "Shreya",
-        age: 20,
-        birthday: "11 October"
+        name: "Spectre",
+        age: 19,
+        birthday: "23 September"
     },
 
 
