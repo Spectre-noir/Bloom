@@ -6284,7 +6284,7 @@ a:focus-visible {
         stroke;
 
     filter:
-        url(#shreyaGlow);
+        url(#spectreGlow);
 
     opacity: .72;
 
@@ -6370,7 +6370,7 @@ a:focus-visible {
 .memory-name__glow {
 
     animation:
-        shreyaWriteGlow
+        spectreWriteGlow
         2.7s
         cubic-bezier(
             .65,
@@ -6388,7 +6388,7 @@ a:focus-visible {
 .memory-name__stroke {
 
     animation:
-        shreyaWrite
+        spectreWrite
         2.7s
         cubic-bezier(
             .65,
@@ -6404,7 +6404,7 @@ a:focus-visible {
    Handwriting animation
    --------------------------------------------------------- */
 
-@keyframes shreyaWrite {
+@keyframes spectreWrite {
 
     0% {
 
@@ -6434,7 +6434,7 @@ a:focus-visible {
 }
 
 
-@keyframes shreyaWriteGlow {
+@keyframes spectreWriteGlow {
 
     0% {
 
@@ -6472,7 +6472,7 @@ a:focus-visible {
 .memory-name__stroke {
 
     animation:
-        shreyaWrite
+        spectreWrite
         2.7s
         cubic-bezier(
             .65,
@@ -6481,7 +6481,7 @@ a:focus-visible {
             1
         )
         forwards,
-        shreyaNeonBreath
+        spectreNeonBreath
         4.5s
         ease-in-out
         2.7s
@@ -6489,7 +6489,7 @@ a:focus-visible {
 }
 
 
-@keyframes shreyaNeonBreath {
+@keyframes spectreNeonBreath {
 
     0% {
 
