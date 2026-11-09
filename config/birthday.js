@@ -1,9 +1,9 @@
 const BLOOM_BIRTHDAY = {
 
     person: {
-        name: "Shreya",
+        name: "Akshara",
         age: 20,
-        birthday: "11 October"
+        birthday: "28 October"
     },
 
 
@@ -38,13 +38,13 @@ const BLOOM_BIRTHDAY = {
 
     photos: [
 
-        "assets/images/memory-1.jpeg",
-        "assets/images/memory-2.jpeg",
-        "assets/images/memory-3.jpeg",
+        "assets/images/memory-1.png",
+        "assets/images/memory-2.png",
+        "assets/images/memory-3.png",
 
-        "assets/images/placeholder-1.jpeg",
-        "assets/images/placeholder-2.jpeg",
-        "assets/images/placeholder-3.jpeg"
+        "assets/images/placeholder-1.png",
+        "assets/images/placeholder-2.png",
+        "assets/images/placeholder-3.png"
 
     ],
 
