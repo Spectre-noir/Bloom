@@ -6284,7 +6284,7 @@ a:focus-visible {
         stroke;
 
     filter:
-        url(#shreyaGlow);
+        url(#aksharaGlow);
 
     opacity: .72;
 
@@ -6370,7 +6370,7 @@ a:focus-visible {
 .memory-name__glow {
 
     animation:
-        shreyaWriteGlow
+        aksharaWriteGlow
         2.7s
         cubic-bezier(
             .65,
@@ -6388,7 +6388,7 @@ a:focus-visible {
 .memory-name__stroke {
 
     animation:
-        shreyaWrite
+        aksharaWrite
         2.7s
         cubic-bezier(
             .65,
@@ -6434,7 +6434,7 @@ a:focus-visible {
 }
 
 
-@keyframes shreyaWriteGlow {
+@keyframes aksharaWriteGlow {
 
     0% {
 
@@ -6472,7 +6472,7 @@ a:focus-visible {
 .memory-name__stroke {
 
     animation:
-        shreyaWrite
+        aksharaWrite
         2.7s
         cubic-bezier(
             .65,
@@ -6481,7 +6481,7 @@ a:focus-visible {
             1
         )
         forwards,
-        shreyaNeonBreath
+        aksharaNeonBreath
         4.5s
         ease-in-out
         2.7s
@@ -6489,7 +6489,7 @@ a:focus-visible {
 }
 
 
-@keyframes shreyaNeonBreath {
+@keyframes aksharaNeonBreath {
 
     0% {
 
